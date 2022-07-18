@@ -1,26 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Shop
 {
     class Customer: Person
     {
-        private readonly Dictionary<string, List<Product>> _inventory;
-
-        public Customer(string name, uint money) : base(name, money)
-        {
-            _inventory = new Dictionary<string, List<Product>>();
-        }
+        public Customer(string name, uint money) : base(name, money) { }
 
         public void ShowInventory()
         {
-            Products = new List<Product>();
-
-            foreach (List<Product> products in _inventory.Values)
-            {
-                Products.Add(products[0]);
-            }
-
             ShowInventory(new Position(50, 0));
         }
 
@@ -36,7 +23,7 @@ namespace Shop
             {
                 if (price <= Money)
                 {
-                    AddProduct(product);
+                    Products.Add(product);
                     Money -= price;
                 }
                 else
@@ -53,36 +40,19 @@ namespace Shop
         protected override sealed string GetProductText(Product product)
         {
             string text = base.GetProductText(product);
+            int productCount = 0;
 
-            text += " Количество: " + _inventory[product.Name].Count;
-
-            return text;
-        }
-
-        private void AddProduct(Product product)
-        {
-            if (CompareProducts(product))
+            foreach(Product item in Products)
             {
-                _inventory[product.Name].Add(product);
-            }
-            else
-            {
-                List<Product> products = new List<Product>() { product };
-                _inventory.Add(product.Name, products);
-            }
-        }
-
-        private bool CompareProducts(Product product)
-        {
-            foreach (List<Product> items in _inventory.Values)
-            {
-                if (items[0].Compare(product))
+                if (item.Compare(product))
                 {
-                    return true;
+                    productCount++;
                 }
             }
 
-            return false;
+            text += " Количество: " + productCount;
+
+            return text;
         }
     }
 }

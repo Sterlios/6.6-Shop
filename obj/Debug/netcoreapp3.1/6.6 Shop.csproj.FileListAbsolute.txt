@@ -12,3 +12,17 @@ D:\Programming\Projects\IJunior\6 OOP\6.6 Shop\obj\Debug\netcoreapp3.1\6.6 Shop.
 D:\Programming\Projects\IJunior\6 OOP\6.6 Shop\obj\Debug\netcoreapp3.1\6.6 Shop.dll
 D:\Programming\Projects\IJunior\6 OOP\6.6 Shop\obj\Debug\netcoreapp3.1\6.6 Shop.pdb
 D:\Programming\Projects\IJunior\6 OOP\6.6 Shop\obj\Debug\netcoreapp3.1\6.6 Shop.genruntimeconfig.cache
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\bin\Debug\netcoreapp3.1\6.6 Shop.exe
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\bin\Debug\netcoreapp3.1\6.6 Shop.deps.json
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\bin\Debug\netcoreapp3.1\6.6 Shop.runtimeconfig.json
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\bin\Debug\netcoreapp3.1\6.6 Shop.runtimeconfig.dev.json
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\bin\Debug\netcoreapp3.1\6.6 Shop.dll
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\bin\Debug\netcoreapp3.1\6.6 Shop.pdb
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\obj\Debug\netcoreapp3.1\6.6 Shop.csproj.AssemblyReference.cache
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\obj\Debug\netcoreapp3.1\6.6 Shop.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\obj\Debug\netcoreapp3.1\6.6 Shop.AssemblyInfoInputs.cache
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\obj\Debug\netcoreapp3.1\6.6 Shop.AssemblyInfo.cs
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\obj\Debug\netcoreapp3.1\6.6 Shop.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\obj\Debug\netcoreapp3.1\6.6 Shop.dll
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\obj\Debug\netcoreapp3.1\6.6 Shop.pdb
+D:\Programming\Projects\IJunior\6 OOP\6.6-Shop-3\obj\Debug\netcoreapp3.1\6.6 Shop.genruntimeconfig.cache

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Projects\\IJunior\\6 OOP\\6.6 Shop\\6.6 Shop.csproj",
+      "projectUniqueName": "D:\\Programming\\Projects\\IJunior\\6 OOP\\6.6-Shop-3\\6.6 Shop.csproj",
       "projectName": "6.6 Shop",
-      "projectPath": "D:\\Programming\\Projects\\IJunior\\6 OOP\\6.6 Shop\\6.6 Shop.csproj",
+      "projectPath": "D:\\Programming\\Projects\\IJunior\\6 OOP\\6.6-Shop-3\\6.6 Shop.csproj",
       "packagesPath": "C:\\Users\\kuzmi\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Projects\\IJunior\\6 OOP\\6.6 Shop\\obj\\",
+      "outputPath": "D:\\Programming\\Projects\\IJunior\\6 OOP\\6.6-Shop-3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

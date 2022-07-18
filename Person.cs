@@ -30,15 +30,33 @@ namespace Shop
             InventoryPosition.SetNextLine();
             Console.WriteLine("Инвентарь:");
 
+            List<Product> uniqueProducts = new List<Product>();
+
             foreach (Product product in Products)
             {
-                productNumber++;
-                string productNumberText = productNumber.ToString() + ") ";
-                
-                for (int i = (int)Math.Log10(productNumber); i < (int)Math.Log10(Products.Count); i++)
+                bool isUnique = true;
+                foreach (Product uniqueProduct in uniqueProducts)
                 {
-                    productNumberText += " ";
+                    if (uniqueProduct.Compare(product))
+                    {
+                        isUnique = false;
+                        break;
+                    }
                 }
+
+                if (isUnique)
+                {
+                    uniqueProducts.Add(product);
+                }
+            }
+
+            foreach (Product product in uniqueProducts)
+            {
+                productNumber++;
+                string seperator = ") ";
+                string productNumberText = productNumber + seperator;
+                string maxNumberText = uniqueProducts.Count + seperator;
+                productNumberText = productNumberText.PadRight(maxNumberText.Length);
 
                 InventoryPosition.SetNextLine();
                 Console.WriteLine(productNumberText + GetProductText(product));
@@ -57,14 +75,7 @@ namespace Shop
         protected virtual string GetProductText(Product product)
         {
             int nameFieldLength = 20;
-            string text = "";
-
-            for (int i = 0; i < nameFieldLength; i++)
-            {
-                text += i < product.Name.Length ? product.Name[i].ToString() : ".";
-            }
-
-            return text;
+            return product.Name.PadRight(nameFieldLength, '.');
         }
 
         protected void WriteMessage(string massage = "")
